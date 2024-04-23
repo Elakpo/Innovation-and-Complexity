@@ -1,14 +1,23 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './components/Home';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
+import PrivateRoute from './components/PrivateRoute';
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <p>Innovation and Complexity Project</p>
-    </>
-  )
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/login" component={Login} />
+          <PrivateRoute path="/dashboard" component={Dashboard} />
+        </Switch>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
