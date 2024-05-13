@@ -29,6 +29,18 @@ const Login = () => {
             {error && <p className="text-red-500 mb-4">{error}</p>}
             <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg" onClick={handleLogin}>Login</button>
         </div>
+
+        <div className='bg-red-500'>
+          <h2 className="text-center">Login Credentials</h2>
+          <div>
+            <p>
+              <em>Username</em> : Admin
+            </p>
+            <p>
+              <em>Password</em> : password
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
