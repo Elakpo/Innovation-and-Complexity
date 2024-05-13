@@ -1,0 +1,9 @@
+{
+    "name": "Deaths from Cardiovascular Diseases and Types",
+    "dockerComposeFile": "docker-compose.yml",
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [],
+    "forwardPorts": [3000] // Adjust the port number as needed
+}
