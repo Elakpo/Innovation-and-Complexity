@@ -28,18 +28,20 @@ const Login = () => {
             <input className="w-64 py-2 px-4 mx-2 mb-4 rounded border" type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
             {error && <p className="text-red-500 mb-4">{error}</p>}
             <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg" onClick={handleLogin}>Login</button>
-        </div>
 
-        <div className='bg-red-500'>
-          <h2 className="text-center">Login Credentials</h2>
-          <div>
-            <p>
-              <em>Username</em> : Admin
-            </p>
-            <p>
-              <em>Password</em> : password
-            </p>
-          </div>
+            <div>
+              <div className='bg-red-500 text-white rounded-lg w-auto p-3'>
+                <h2 className="text-center text-3xl border-x-8">Login Credentials</h2> 
+                <div>
+                  <p>
+                    <b>Username</b> : Admin
+                  </p>
+                  <p>
+                    <b>Password</b> : password
+                  </p>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
