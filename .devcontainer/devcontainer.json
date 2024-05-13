@@ -5,5 +5,8 @@
         "terminal.integrated.defaultProfile.linux": "bash"
     },
     "extensions": [],
-    "forwardPorts": [3000] // Adjust the port number as needed
+    "forwardPorts": [3000],
+    "overrideCommand": false, // Ensures custom VS Code settings are applied
+    "postCreateCommand": "echo 'Your custom settings have been applied.'", // Optional: Display a message after environment creation
+    "remoteUser": "codespace" // Set the remote user to ensure VS Code settings are applied correctly
 }
