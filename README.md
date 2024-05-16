@@ -8,3 +8,5 @@ According to WHO, heart diseases and other cardiovascular diseases (CVD) are the
 diseases.
 ### Solution
 The app can be used by health institutions and providers to monitor decrease or increase in CVDs in the last ten years or more in Germany. The disease comparison will help in prioritizing disease diagnosis and treatment, preventive solutions, and awareness campaigns. Asides health care providers and institutions, citizens can use the information to pay more attention to their health and report all related symptoms to their GP.
+
+You can view the project using this [link] (https://super-doodle-5gg7wxjp7g5q2v665-5173.app.github.dev/)
