@@ -243,7 +243,7 @@ const BarChart = ({ data }) => {
         <label className='text-red-500'>* Please select a year </label> <br/>
         <label htmlFor="year-select">Select a Year: </label>
         <select id="year-select" onChange={handleYearChange}>
-        <option value="">--</option>
+          <option value="">--</option>
           {data.map((d, index) => (
             <option key={index++} value={d.Year}>{d.Year}</option>
           ))}

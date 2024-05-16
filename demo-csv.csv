@@ -1,7 +1,7 @@
-Entity,Code,Year,Rheumatic heart disease,"Cardiomyopathy, myocarditis, endocarditis",Other circulatory diseases,Hypertensive heart disease,Ischaemic stroke,Haemorrhagic stroke,Ischaemic heart disease
-Georgia,GEO,2014,501.94,382.29,1200.36,5043.35,5687.6,6335.07,15236.8
-Georgia,GEO,2015,525,365.19,1163.7,4982.94,5791.72,6326.73,15132.8
-Georgia,GEO,2016,512.92,375.53,1188.97,4966.29,5994.86,6708.06,16320.31
-Georgia,GEO,2017,463.76,350.84,1115.58,4604.35,5684.31,6380.12,15756.72
-Georgia,GEO,2018,437.98,345.42,1089.59,4422.06,5529.6,6287.17,15648.79
-Georgia,GEO,2019,426.37,346.19,1094.4,4387.33,5589.2,6380.05,16014.43
+Entity,Code,Year,"Rheumatic heart disease","Cardiomyopathy, myocarditis, endocarditis","Other circulatory diseases","Hypertensive heart disease","Ischaemic stroke","Haemorrhagic stroke","Ischaemic heart disease"
+Germany,DEU,2014,501.94,382.29,1200.36,5043.35,5687.6,6335.07,15236.8
+Germany,DEU,2015,525,365.19,1163.7,4982.94,5791.72,6326.73,15132.8
+Germany,DEU,2016,512.92,375.53,1188.97,4966.29,5994.86,6708.06,16320.31
+Germany,DEU,2017,463.76,350.84,1115.58,4604.35,5684.31,6380.12,15756.72
+Germany,DEU,2018,437.98,345.42,1089.59,4422.06,5529.6,6287.17,15648.79
+Germany,DEU,2019,426.37,346.19,1094.4,4387.33,5589.2,6380.05,16014.43

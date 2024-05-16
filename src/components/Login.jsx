@@ -34,7 +34,7 @@ const Login = () => {
                 <h2 className="text-center text-3xl border-x-8">Login Credentials</h2> 
                 <div>
                   <p>
-                    <b>Username</b> : Admin
+                    <b>Username</b> : admin
                   </p>
                   <p>
                     <b>Password</b> : password
