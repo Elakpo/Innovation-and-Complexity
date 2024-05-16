@@ -5,7 +5,6 @@ import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import PrivateRoute from './components/PrivateRoute';
 
-import Chart from './components/Test';
 import "./App.css";
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/login" component={Login} />
           <PrivateRoute path="/dashboard" component={Dashboard} />
-          <PrivateRoute path="/test" component={Chart} />
         </Switch>
       </div>
     </Router>
