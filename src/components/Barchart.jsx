@@ -223,6 +223,9 @@ const BarChart = ({ data }) => {
     return number.toLocaleString('en-US');
   };
   
+  // Extract unique years from the data
+  const uniqueYears = [...new Set(data.map(d => d.Year))];
+
 
   const spinnerStyle = css`
     display: block;
@@ -242,10 +245,14 @@ const BarChart = ({ data }) => {
       <div>
         <label className='text-red-500'>* Please select a year </label> <br/>
         <label htmlFor="year-select">Select a Year: </label>
-        <select id="year-select" onChange={handleYearChange}>
+        
+
+        <select id="year-select" value={selectedYear || ''} onChange={handleYearChange}>
           <option value="">--</option>
-          {data.map((d, index) => (
-            <option key={index++} value={d.Year}>{d.Year}</option>
+          {uniqueYears.map((year, index) => (
+            <option key={index} value={year}>
+              {year}
+            </option>
           ))}
         </select>
       </div>
