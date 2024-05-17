@@ -20,6 +20,7 @@ const Dashboard = () => {
         const germanyData = jsonData.filter(item => item.Entity === "Germany" && item.Year >= 2009 && item.Year <= 2019);
 
         setData(germanyData);
+        setDefaultData(germanyData);
 
         const keys = Object.keys(germanyData[0] || {}).filter(key => key !== "Entity" && key !== "Code" && key !== "Year");
 
