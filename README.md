@@ -12,7 +12,7 @@ The app can be used by user group to monitor decrease or increase in CVDs in wit
 # Data source 
 You can view the project using this link (https://super-doodle-5gg7wxjp7g5q2v665-5173.app.github.dev/)
 # Features
-An interactive virtualization where users can explore two or more diseases to see the death rate
+An interactive virtualization where users can explore two or more diseases to see the CVD death rate
 # Technology Stack
 Frontend: React.js, D3.js for interactive data visualizations
 Backend: Node.js
